@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <div class="navUp">
+            <div class="logoSide">
+                <i class="fa-solid fa-bars" id="homeMenu"></i>
+                <div class="logoSide-1">
+                    <img src="/images/youtubeLogo.svg" alt="">
+                    <h2>Youtube</h2>
+                </div>
+            </div>
+
+            <div class="searchBar">
+                <i class="fa-solid fa-magnifying-glass" id="searchIcon"></i>
+                <input type="search" placeholder="Search" id="searchBar">
+                <span class="mic"><i class="fa-solid fa-microphone"></i></span>
+            </div>
+            
+            <div class="menuSide">
+                <span>
+                    <i class="fa-solid fa-plus"></i>
+                    <button id="createBtn">Create</button>
+                </span>
+                <i class="fa-solid fa-bell"></i>
+                <img src="/images/profilePic.png" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <div class="Home">
+
+        <div class="mainMenu-Container">
+            <div class="mainMenu">
+                <div class="menuUp">
+                    <a href="">
+                        <i class="fa-solid fa-house"></i>
+                        Home
+                    </a>
+                    <a href="https://www.youtube.com/shorts/KVvaGBUKA8o">
+                        <i class="fa-solid fa-film"></i>
+                        Shorts
+                    </a>
+                </div>
+                <hr>
+                <a href="" id="subscribtionBtn">
+                    Subscribtion
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <div class="menuSubs">
+                    <a href="">
+                        <img src="/images/ApnaCollage.png" alt="">
+                        Apna Collage
+                    </a>
+
+                    <a href="">
+                        <img src="/images/ashishChanchlani.png" alt="">
+                        Ashish Chanchalani
+                    </a>
+
+                    <a href="">
+                        <img src="/images/chaiWithCode.png" alt="">
+                        Chai with code
+                    </a>
+
+                    <a href="">
+                        <img src="/images/codeWithHarry.png" alt="">
+                        Chai with code
+                    </a>
+
+                    <a href="">
+                        <img src="/images/pwIoi.png" alt="">
+                        Pw IOI
+                    </a>
+
+                    <a href="">
+                        <img src="/images/collageWallah.png" alt="">
+                        Collage Wallah
+                    </a>
+
+                    <a href="">
+                        <img src="/images/dreamMaths.png" alt="">
+                        Dream Maths
+                    </a>
+
+                    <a href="">
+                        <img src="/images/harshRajput.png" alt="">
+                        Harsh Rajput
+                    </a>
+
+                    <a href="">
+                        <img src="/images/techBurner.png" alt="">
+                        TechBruner
+                    </a>
+                    <a href="">
+                        <img src="/images/technoGamerz.png" alt="">
+                        Techno Gamerz
+                    </a>
+
+                </div>
+                <a href="" id="showMore-subs">
+                    <i class="fa-solid fa-angle-down"></i>
+                    Show more
+                </a>
+                <a href="" id="showLess-subs">
+                    <i class="fa-solid fa-angle-down"></i>
+                    Show less
+                </a>
+                <hr>
+                <a href="" id="youBtn">
+                    You
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <div class="youSec">
+
+
+
+                    <a href="">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        History
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-sliders"></i>
+                        Playlist
+                    </a>
+
+                    <a href="">
+                        <i class="fa-regular fa-clock"></i>
+                        Watch later
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-arrow-down"></i>
+                        Downloads
+                    </a>
+
+                </div>
+                <hr>
+                <a href="" id="exploreBtn">
+                    Explore
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+                <div class="exploreSec">
+                    <a href="">
+                        <i class="fa-solid fa-music"></i>
+                        Music
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-gamepad"></i>
+                        Gaming
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-film"></i>
+                        Movies
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-newspaper"></i>
+                        News
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        Shopping
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-trophy"></i>
+                        Sports
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        Courses
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-shirt"></i>
+                        Fashion
+                    </a>
+                </div>
+
+                <a href="" id="showMore-explo">
+                    <i class="fa-solid fa-angle-down"></i>
+                    Show more
+                </a>
+                <a href="" id="showLess-explo">
+                    <i class="fa-solid fa-angle-down"></i>
+                    Show less
+                </a>
+
+                <hr>
+                <div class="settingSec">
+                    <a href="">
+                        <i class="fa-solid fa-gear"></i>
+                        Setting
+                    </a>
+
+                    <a href="">
+                        <i class="fa-regular fa-flag"></i>
+                        Report History
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-circle-question"></i>
+                        Help
+                    </a>
+
+                    <a href="">
+                        <i class="fa-solid fa-comment-dollar"></i>
+                        Send feedback
+                    </a>
+                </div>
+                <hr>
+                <div class="about">
+                    <p>About Press Copyright Contact us Creators Advertise Developers <br>
+                        <br>Terms Privacy Policy & Safety How YouTube works Test new features
+                    </p>
+                </div>
+            </div>
+        </div>
+
+         <div class="afterMenu">
+        <a href="">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+        </a>
+        <a href="https://www.youtube.com/shorts/KVvaGBUKA8o">
+            <i class="fa-solid fa-film"></i>
+            <p>Shorts</p>
+        </a>
+
+        <a href="">
+            <i class="fa-solid fa-tv"></i>
+            <p>Subscribtions</p>
+        </a>
+
+        <a href="">
+            <span><i class="fa-solid fa-user"></i></span>
+            <p>You</p>
+        </a>
+    </div>
+
+        <div>
+            <div class="navDown">
+                <a href="">All</a>
+                <a href="">Music</a>
+                <a href="">Gaming</a>
+                <a href="">Physics Wallah</a>
+                <a href="">Podcasts</a>
+                <a href="">Source Code</a>
+                <a href="">Web Development</a>
+                <a href="">Movie</a>
+                <a href="">GTA V</a>
+                <a href="">Peotry</a>
+                <a href="">Web Series</a>
+                <a href="">Arijit Singh</a>
+                <a href="">Minecraft</a>
+                <a href="">T-series</a>
+                <a href="">Live</a>
+                <a href="">DSA</a>
+                <a href="">New to You</a>
+            </div>
+
+
+            <div class="video-container">
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/xb-fcoMMiTM?si=nuRs0mDL1Ai04FgB"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/codeWithHarry.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>End of Web development?</h4>
+                                <div class="videoDes-1">
+                                    <p>CodewithHarry</p>
+                                    <p>1.5M Views &#183; 1 week ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/7fjOw8ApZ1I?si=P2iwI7F08zL8Ovr4"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/chaiWithCode.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>Complete Backend Developer Course</h4>
+                                <div class="videoDes-1">
+                                    <p>Chaiwithcode</p>
+                                    <p>4.5M views &#183; 2 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/DDryy8xMuac?si=1jGSb1egH4-qbZPo"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/ashishChanchlani.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>Ekaki Chapter 4: skyfall | Ashish Chanchlani</h4>
+                                <div class="videoDes-1">
+                                    <p>Ashish Chanchlani</p>
+                                    <p>6.2M views &#183; 1 month ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/8CCh_GLviFc?si=xtSDTLjmLaW0TJyp"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/techBurner.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>I tried Viral Meesho Gadgets</h4>
+                                <div class="videoDes-1">
+                                    <p>Tech Burner</p>
+                                    <p>387K views &#183; 1 day ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/apjaWvIUUIw?si=_xiri7wItiIZqAKv"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/dreamMaths.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>Spanning tree | Graph theory</h4>
+                                <div class="videoDes-1">
+                                    <p>Dream Maths</p>
+                                    <p>45K views &#183; 1 year ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/ZIwzRBcwnUk?si=6CUPy92tFGxE8fLM"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/technoGamerz.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>NEW GANGSTER IN CITY | GTA 5 GAMEPLAY #162</h4>
+                                <div class="videoDes-1">
+                                    <p>Techno Gamerz</p>
+                                    <p>13M views &#183; 11 days ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/xb-fcoMMiTM?si=nuRs0mDL1Ai04FgB"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/codeWithHarry.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>End of Web development?</h4>
+                                <div class="videoDes-1">
+                                    <p>CodewithHarry</p>
+                                    <p>1.5M Views 1 week ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/xb-fcoMMiTM?si=nuRs0mDL1Ai04FgB"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/codeWithHarry.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>End of Web development?</h4>
+                                <div class="videoDes-1">
+                                    <p>CodewithHarry</p>
+                                    <p>1.5M Views 1 week ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/xb-fcoMMiTM?si=nuRs0mDL1Ai04FgB"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/codeWithHarry.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>End of Web development?</h4>
+                                <div class="videoDes-1">
+                                    <p>CodewithHarry</p>
+                                    <p>1.5M Views 1 week ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/xb-fcoMMiTM?si=nuRs0mDL1Ai04FgB"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/codeWithHarry.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>End of Web development?</h4>
+                                <div class="videoDes-1">
+                                    <p>CodewithHarry</p>
+                                    <p>1.5M Views 1 week ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/xb-fcoMMiTM?si=nuRs0mDL1Ai04FgB"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/codeWithHarry.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>End of Web development?</h4>
+                                <div class="videoDes-1">
+                                    <p>CodewithHarry</p>
+                                    <p>1.5M Views 1 week ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="" class="videoBox-container">
+                    <div class="videoBox">
+                        <iframe src="https://www.youtube.com/embed/xb-fcoMMiTM?si=nuRs0mDL1Ai04FgB"
+                            title="YouTube video player" frameborder="0"></iframe>
+                        <div class="video-Content">
+                            <img src="/images/codeWithHarry.png" alt=""
+                                style="width: 45px; height: 45px ; border-radius: 30px;">
+                            <div class="videoDes">
+                                <h4>End of Web development?</h4>
+                                <div class="videoDes-1">
+                                    <p>CodewithHarry</p>
+                                    <p>1.5M Views 1 week ago</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+
+   
+    <script src="app.js"></script>
+</body>
+
+</html>

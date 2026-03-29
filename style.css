@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgba(15, 15, 15);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(15, 15, 15);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 25px 5px 25px;
+    backdrop-filter: blur(10px)
+}
+
+.navUp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+
+.navUp i:hover {
+    cursor: pointer;
+}
+
+.logoSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logoSide i {
+    font-size: 20px;
+}
+
+.logoSide-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoSide-1 img {
+    width: auto;
+    height: 40px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vh;
+    border: 0.1px solid rgb(39, 38, 38);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.searchBar input {
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 7px;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+}
+
+#searchIcon {
+    font-size: 20px;
+    display: none;
+}
+
+.searchBar span {
+    display: flex;
+    align-items: center;
+    background-color: rgb(39, 38, 38);
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.menuSide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+#createBtn {
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: rgb(39, 38, 38);
+    color: white;
+}
+
+.menuSide img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.navDown {
+    margin-top: 5px;
+    padding: 5px 5px 10px 10px;
+    display: flex;
+    /* justify-content: center; */
+    /* border: 1px solid white; */
+    align-items: center;
+    gap: 15px;
+    overflow-x: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    width: 147vh;
+}
+.navDown::-webkit-scrollbar{
+    display: none;
+}
+.navDown a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(39, 38, 38);
+    padding: 8px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.Home {
+    display: flex;
+    height: 100vh;
+}
+
+.mainMenu-Container {
+    width: 200px;
+    /* border: 1px solid white; */
+    padding: 0px 50px 0px 20px;
+    background-color: rgba(15, 15, 15);
+    color: white;
+    height: auto;
+    position: sticky;
+    overflow-y: auto;
+    display: block;
+}
+
+.mainMenu-Container::-webkit-scrollbar {
+    display: none;
+}
+
+.mainMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainMenu i {
+    font-size: 20px;
+}
+
+.mainMenu a:hover {
+    background-color: rgb(39, 38, 38);
+    border-radius: 10px;
+}
+
+.mainMenu a {
+    /* margin-top: 7px; */
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.menuUp {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+.menuUp a{
+    padding: 10px;
+}
+
+.menuSubs {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    height: 40vh;
+    overflow-y: hidden;
+
+}
+
+.menuSubs a {
+    font-size: 13px;
+}
+
+#subscribtionBtn {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.menuSubs img {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+hr {
+    border: 0.4px solid rgb(39, 38, 38);
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+#showMore-subs {
+    margin-top: 6px;
+}
+
+#showLess-subs {
+    display: none;
+}
+
+#youBtn {
+    font-size: 18px;
+}
+
+#exploreBtn {
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.youSec a {
+    padding: 12px;
+    font-size: 13px;
+}
+
+.exploreSec a {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+
+}
+
+.exploreSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 22vh;
+    overflow-y: hidden;
+}
+
+#showLess-explo {
+    display: none;
+}
+
+.settingSec a {
+    padding: 12px;
+    font-size: 13px;
+}
+
+.about {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 15px;
+    /* flex: 1; */
+    height: 100vh;
+    overflow-y: auto;
+
+}
+
+.video-container a {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.video-container a:hover {
+    background-color: rgb(39, 38, 38);
+    transition: 500ms ease-out;
+    border: 0.3px solid rgb(128, 126, 126)
+}
+
+.videoBox {
+    /* border: 1px solid white; */
+    width: 100%;
+
+}
+
+.videoBox iframe {
+    width: 100%;
+    max-width: 360px;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.video-Content {
+    display: flex;
+    /* align-items: center; */
+    gap: 15px;
+    margin-top: 5px;
+    width: 100%;
+    max-width: 360px;
+
+}
+
+.videoDes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.videoDes h4 {
+    color: white;
+}
+
+.videoDes p {
+    color: rgb(110, 109, 109);
+    font-size: 14px;
+}
+
+.afterMenu {
+    /* border: 1px solid white; */
+    padding: 7px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.afterMenu i {
+    font-size: 20px;
+}
+
+.afterMenu a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+.afterMenu p {
+    font-size: 10px;
+}
