@@ -13,25 +13,33 @@ A responsive YouTube Clone built using HTML, CSS, and JavaScript that replicates
 🖼️ Video thumbnails with titles and channel info
 📱 Responsive design (works on different screen sizes)
 ⚡ Fast and lightweight frontend project
+
+
 🛠️ Tech Stack
 HTML5 – Structure of the application
 CSS3 – Styling and layout (Flexbox/Grid)
 JavaScript (Vanilla JS) – Functionality and DOM manipulation
+
+
 📂 Project Structure
 YouTube-Clone/
 │── index.html
 │── style.css
 │── script.js
 │── assets/
+
 🎯 Learning Outcomes
 Improved understanding of DOM manipulation
 Learned how to build responsive layouts
 Practiced UI cloning from real-world platforms
 Gained experience in structuring frontend projects
+
 ⚠️ Limitations
 ❌ No backend integration
 ❌ No real video streaming
 ❌ Static/dummy data (no API used)
+
+
 🔮 Future Improvements
 🔗 Integrate YouTube Data API
 🔍 Add real search functionality
